@@ -1,0 +1,29 @@
+html {
+    font-size: 10px
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.content-wrapper {
+    width: 1400px;
+}
+
+.post-wrapper {
+    position: relative;
+    border: 1px solid #b8daff;
+    border-radius: 0.25rem;
+}
+
+.post-body {
+    min-height: 6rem;
+}
+
+.post-avatar {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid  #b8daff;
+}
