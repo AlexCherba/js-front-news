@@ -74,7 +74,7 @@
 
             <div class="container post-wrapper pl-0 pr-0 mb-3"></div>
 
-            <div id="postId" class="container post-wrapper pl-0 pr-0 mb-3">
+            <div id="postTemplate" hidden="hidden" class="container post-wrapper pl-0 pr-0 mb-3">
                 <div class="row m-0">
                     <div class="col-1 p-0 text-center align-self-center mt-2 mb-2">
                         <div>
@@ -94,22 +94,22 @@
                     <div class="col-11 p-0">
                         <div class="container">
                             <div class="row bg-light alert alert-info p-1 mb-0 text-left">
-                                <div id="postOwner" class="col-3 text-left"><a href="">Alexander Popov</a></div>
-                                <div id="postTopic" class="col-6 text-left">Гоу все на пьянку!</div>
-                                <div id="postDate" class="col-3 text-right">22.02.2018 13:23</div>
+                                <div class="postOwner col-3 text-left"><a href="">Alexander Popov</a></div>
+                                <div class="postTopic col-6 text-left">Гоу все на пьянку!</div>
+                                <div class="postDate col-3 text-right">22.02.2018 13:23</div>
                             </div>
                             <div class="row post-body align-items-center m-0 p-0 ">
-                                <div id="postText" class="col text-left ">Гоу все на пьянку!</div>
+                                <div class="postText col text-left ">Гоу все на пьянку!</div>
                             </div>
                             <div class="row bg-light alert alert-info p-1 mb-0 text-left">
                                 <div class="col-3">
-                                    <a id="postComment" href="">Comments: 1 <i class="fa fa-comments-o"></i></a>
+                                    <a href="">Comments: <span class="postComment" >1</span> <i class="fa fa-comments-o"></i></a>
                                 </div>
                                 <div class="col-3">
-                                    <a id="postLike" href="">Likes: 10 <i class="fa fa-thumbs-o-up"></i></a>
+                                    <a href="">Likes: <span class="postLike" >10</span> <i class="fa fa-thumbs-o-up"></i></a>
                                 </div>
                                 <div class="col-3">
-                                    <a id="postFavorite" href="">Add to Favorites <i class="fa fa-star-o"></i></a>
+                                    <a href="">Add to Favorites <i class="postFavorite fa fa-star-o"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,8 @@
     <div onclick="toHidePost()">hidden/visible post</div>
     <div onclick="toAddPost()">add new post</div>
 </div>
-<script src="js/jquery-3.3.1.js"></script>
+<!--<script src="js/jquery-3.3.1.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js" integrity="sha256-ubLEQwr53FjvE/hMBvPTVinRBPUWl9FWKn2MW59CiM4=" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
